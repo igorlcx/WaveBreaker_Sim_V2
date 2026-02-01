@@ -1,0 +1,50 @@
+# --- 1. Python Bytecode & Cache ---
+# Fichiers compilés automatiquement par Python (inutiles sur Git)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- 2. Environnements Virtuels (CRITIQUE) ---
+# Ne JAMAIS commiter le dossier venv. 
+# On utilise requirements.txt pour ça.
+venv/
+env/
+.venv/
+.env
+
+# --- 3. Artefacts WaveBreaker (Sorties de Simulation) ---
+# On ne veut pas versionner les résultats de tests ou les logs
+*.log
+*.sqlite
+
+# Rapports graphiques générés par analysis/metrics.py
+WaveBreaker_Report.png
+*.png
+*.jpg
+*.svg
+*.pdf
+
+# Données brutes (si export CSV/Excel)
+*.csv
+*.xlsx
+*.json
+
+# --- 4. Distribution & Packaging ---
+# Si un jour tu transformes ça en exécutable
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# --- 5. IDE & OS ---
+# Fichiers de configuration utilisateur (VSCode, JetBrains, Mac, Windows)
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- 6. Jupyter Notebooks (Optionnel) ---
+# Souvent utilisés en Data Science, on ignore les checkpoints
+.ipynb_checkpoints

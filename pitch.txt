@@ -1,0 +1,392 @@
+pitch 
+
+WAVE BRAKER : l’assistant autoroute
+
+**Rapports de Performance Extra-Financière (URD)** de Vinci, notamment celui de 2024 (qui analyse les données 2023).
+
+obj 2018- 2030 pollution usagers (98% pollution vinci): **-20 %Stable vs réalité ajd +2 %Échec relatif.**
+
+PITCH du SAMEDI : 
+
+**[0:00-0:45] L'Accroche : Le Problème Invisible** Bonjour à tous. Vous connaissez tous cette situation : vous êtes sur l’autoroute à 130 km/h, et soudain, tout le monde pile. Vous êtes à l’arrêt. Et quand ça repart… il n’y a rien. Pas d’accident, pas de travaux. C’est le **bouchon fantôme**. Ce phénomène représente **30% des congestions**. C’est un désastre écologique et économique causé par l'effet "accordéon" : un freinage trop fort, une réaction en chaîne, et 2km derrière, l'arrêt complet.
+
+**[0:45-1:30]**  La réponse, c’est **WaveBreaker**. Ce n’est pas un GPS. C’est un **régulateur de trafic collaboratif**. Une IA en "overlay" (surcouche) qui synchronise les véhicules. Elle dit au conducteur : *"Roulez à 110 maintenant pour ne pas être à l'arrêt dans 10 minutes."*
+
+ Est-ce que ça marche vraiment ? Nous ne nous basons pas sur des suppositions, mais sur l'étude de référence de **l'Université de l'Illinois (Stern et al.)**. Elle prouve mathématiquement qu'il suffit de **5% de véhicules connectés** pour stabiliser le flux de tout le monde. Dans leurs tests, cela réduit la consommation de carburant de **42%** en phase de congestion. Nous, par rigueur industrielle, nous nous engageons sur une économie moyenne de **15%** sur un trajet complet. 
+
+Mais comment convaincre le conducteur de ralentir ? C’est là que réside notre résilience B2C. Nous ne misons pas seulement sur l'écologie, mais sur l'intérêt direct de l'utilisateur. Respecter la vitesse optimale rapporte des points qui se convertissent en **cafés ou en menu repas offerts sur l'aire d'autoroute** (via nos partenaires comme Areas) ou en **réductions immédiates au péage**.
+
+**Et c'est économiquement viable de faire ça !!** Pourquoi ? Parce que le coût d'un café offert est dérisoire comparé aux millions d'euros que Vinci et les Assureurs perdent chaque année à cause de l'inefficience du réseau. Nous redistribuons une fraction de ces économies géantes pour acheter le bon comportement du conducteur.
+
+Techniquement, pour démarrer sans utilisateurs (T0), nous utilisons une stratégie **Hybride**. En Phase 1, nous achetons la donnée via les **API Google et TomTom** pour l’algorythme. En Phase 2, nos utilisateurs deviennent nos capteurs (FCD - Floating Car Data), ce qui nous permet de réduire nos coûts d'API de 70% et de devenir souverains sur la donnée.
+
+**[2:15-3:15] Le Business Model, le marché (Qui paie ?)** Notre modèle est vertueux car il aligne les intérêts de 4 acteurs :
+
+1. **L'Automobiliste :** Il ne paie rien. Il gagne du pouvoir d'achat (café, péage, carburant) + assurance
+2. **L'Assureur (Phase 1) :** Il paie pour la "Data de Risque". Moins de freinages brusques = moins de sinistres matériels.
+    
+    On parle d’assureurs mais pleins d’atures acteurs pourront etre interessés, entreprises à grande flotte automobile qui veulent labelliser leurs conducteurs, aires d’autoroutes et sponsor.
+    
+3. **Vinci Autoroutes (Phase 2) :** C'est notre client final. Ils ont un objectif RSE de -50% de CO2 d'ici 2030, mais leurs émissions ont augmenté de 3% en 2023. WaveBreaker est la seule solution logicielle court/moyen terme pour fluidifier le débit de l'autoroute sans construire de nouvelles voies. Ils paieront une licence SaaS d'infrastructure. Des resultats sur court terme pour la reduction CO2 du fait d’un logiciel softwere, c’est l’un de nos avantages competitif.
+4. **L'État :** Il soutient l'amorçage via France 2030 car nous décarbonons massivement sans travaux publics. ce seront les premiers cashflow, de quoi financer la communication et le marketing pour faire arriver les premiers clients.
+
+CONCLUSION : WaveBreaker transforme une faiblesse humaine — l'irrégularité — en une force collective. Nous ne demandons pas de construire de nouvelles routes. Nous installons l'intelligence logicielle qui permet de rentabiliser et décarboner l'infrastructure existante dès aujourd'hui.
+
+**Nos objectifs concrets pour le reste du hackathon sont clairs :** Nous allons finaliser l'interface de notre prototype mobile pour vous montrer l'expérience utilisateur. Mais surtout, nous allons vous livrer une **simulation Python comparative** : d'un côté une autoroute saturée classique, de l'autre, la même route régulée par seulement 5% d'utilisateurs WaveBreaker. Ce moteur algorithmique, que nous peaufinons en ce moment même, prouvera par A + B que notre solution est prête à passer de la théorie à la route.
+
+### 1. Le Pitch (Modèle "Teaser" - Version Écosystème Global)
+
+**Accroche à revoir**
+“France 2030 : Le transport routier doit supprimer 66 millions de tonnes de CO2.” L’État a les objectifs, nous avons la donnée pour les atteindre.
+"Saviez-vous que réguler la vitesse de 5% des véhicules est aussi efficace pour le climat que d’en électrifier 75% ? Wavebreaker propose aux flottes professionnelles une intelligence en overlay de leur GPS. Contrairement à Waze, nous synchronisons les vitesses pour supprimer les bouchons et le CO2. Sur ce marché de 10 milliards d'euros, nous créons un réservoir de données souveraines validé par le Cerema, impossible à copier. Forts de 3 pilotes stratégiques avec Vinci, un assureur et une ZFE, nous cherchons 500k€ pour finaliser notre levée de 3M€ et devenir le standard de la mobilité française."
+• 
+
+**Cible**
+L’État (ZFE), les gestionnaires d’infrastructures (Vinci), les assureurs et les entreprises à forte empreinte carbone (CSRD).
+
+**Problème** 
+Le manque de données de précision corrélant vitesse, sécurité et pollution réelle bloque la transition écologique et coûte des millions en taxes et accidents.
+
+**Concurrence**
+Waze optimise le temps, pas le carbone. Les boîtiers d’assurance sont intrusifs. Personne ne propose de "couche" intelligente capable de certifier une réduction d'impact.
+
+**Taille du marché**
+Un gisement de données de mobilité et de services de conformité carbone estimé à plus de 10 milliards d’euros en Europe d'ici 2027.
+
+**Produit wavebreaker Intelligence** : une application en overlay HUD (conduite) couplée à une plateforme de certification et d’analyse de données souveraine.
+
+**Bénéfice**
+Réduit le risque routier pour les assureurs, certifie la décarbonation pour les entreprises et offre un tableau de bord décisionnel pour l'État et Vinci.
+
+**Différenciant**
+Une technologie non-intrusive (overlay) qui transforme chaque trajet en un flux de données certifié "Label Bas-Carbone".
+
+**Preuve traction**
+Aujourd’hui nous avons [X] utilisateurs et 3 pilotes stratégiques en cours : 1 métropole (ZFE), 1 assureur leader et 1 concessionnaire autoroutier.
+
+**Demande**
+Nous cherchons à compléter notre prochaine levée de 3M€ avec un ticket d’au moins 500k€ pour devenir le standard de la donnée de mobilité souveraine.
+
+$Marge = \text{Revenus (SaaS + Data)} - (\text{Coût Cloud} + \text{Coût API Tierces})$
+
+### Phase 1 : La Fondation Souveraine & Sourcing Data (Mois 1-6)
+
+- **Sourcing Stratégique (API) :** Sélection et intégration des API de référence (**Google Roads** pour les limites de vitesse et **HERE/TomTom** pour le flux de trafic temps réel).
+    - *Objectif :* Avoir une base de comparaison pour prouver que votre application "voit" le bouchon avant qu'il ne se forme.
+- **Validation Algorithmique (Cerema) :** Utilisation des données API pour entraîner votre IA de "Vitesse d'Équilibre".
+- **Infrastructure Data :** Mise en place d'un "Data Lake" souverain pour stocker vos propres données FCD et réduire, à terme, votre dépendance aux API payantes (en créant votre propre cartographie comportementale).
+- **Dépôt LBC :** Soumission de la méthodologie incluant le mode de calcul propriétaire (vu précédemment).
+
+| **Intrants (Revenus / Entrées d'argent)** | **Sortants (Dépenses / Coûts)** |
+| --- | --- |
+| **Subventions France 2030 / ADEME :** Aides à l'innovation pour la décarbonation. | **Sourcing API (Google/TomTom) :** Le "carburant" de ton algo. C'est ton plus gros poste. |
+| **Bourse French Tech (BPI) :** Financement de la R&D initiale. | **R&D / Salaires :** Développeurs spécialisés en IA de flux et infrastructure Data. |
+| **Tickets Pilotes (POC) :** Facturation des premiers tests à Vinci ou une métropole (souvent sous forme de forfait "étude"). | **Frais d'audit & Certification :** Paiement du Cerema et frais de dépôt du Label Bas-Carbone. |
+
+### Phase 2 : Déploiement B2B & Connectivité (Mois 6-12)
+
+- **Interopérabilité (API Sortante) :** Développement d'une API propriétaire "EcoDrive-Score" pour permettre aux assureurs et aux logiciels de gestion de flotte (type Traxall ou GAC) d'intégrer vos données directement dans leurs outils.
+- **Validation "Preuve d'Impact" :** Utilisation de l'API de calcul carbone interne pour générer les certificats CSRD.
+- **Revenu :** Abonnement SaaS + "API Call fees" (facturation à la requête pour les assureurs qui interrogent votre score).
+
+| **Intrants (Revenus / Entrées d'argent)** | **Sortants (Dépenses / Coûts)** |
+| --- | --- |
+| **Abonnements SaaS (Flottes) :** Revenu récurrent (10€/véhicule/mois). | **Cloud & Hosting (AWS/Azure) :** Ton "Data Lake" commence à peser lourd. |
+| **API Call Fees (Assureurs) :** Facturation à l'usage chaque fois qu'un assureur interroge un score. | **Marketing B2B :** Acquisition de clients flottes et présence sur les salons (type *Flotauto*). |
+| **Vente de rapports CSRD :** Frais fixes par certificat émis pour les entreprises. | **Support Client :** Équipe pour gérer l'onboarding des entreprises partenaires. |
+
+### Phase 3 : Infrastructure & Open Data État (Mois 12-18)
+
+- **Flux Temps Réel pour Vinci :** Mise en place d'un flux de données haute fréquence (Websockets/API) pour les centres de contrôle du trafic de Vinci.
+- **Dashboard ZFE :** Couplage de vos données avec les API météo et de qualité de l'air (ex: **OpenAQ**) pour corréler "Baisse de vitesse" et "Baisse de pollution réelle".
+- **Modèle :** Licence Data annuelle + Maintenance des flux API.
+
+| **Intrants (Revenus / Entrées d'argent)** | **Sortants (Dépenses / Coûts)** |
+| --- | --- |
+| **Data Licensing (Vinci / Cartographes) :** Contrats annuels à 6 chiffres pour l'accès aux flux temps réel. | **Maintenance Infrastructure Haute Fréquence :** Coût des Websockets pour le temps réel de Vinci. |
+| **Abonnements Dashboards ZFE :** Revenus récurrents des collectivités locales. | **Expansion Internationale :** Coûts juridiques pour adapter la conformité (RGPD-like) à d'autres pays. |
+| **Upsell Services :** Commissions sur les services de maintenance ou assurance activés via Wavebreaker. | **Data Security :** Audit de cybersécurité massif (indispensable pour les contrats d'État). |
+
+---
+
+### Pourquoi est-ce crucial pour votre levée de fonds ?
+
+Les investisseurs vont regarder votre **"Tech Stack"**. Si vous dites "on fait tout nous-mêmes", ils auront peur que ce soit trop long. Si vous dites "on utilise des API", ils auront peur pour vos marges.
+
+**La stratégie à présenter est celle du "Mix Hybride" :**
+
+1. **Au début (Phase 1) :** "Nous achetons la donnée (API) pour aller vite et être ultra-précis face à l'État."
+2. **À maturité (Phase 3) :** "Grâce à notre masse d'utilisateurs, nous créons notre propre donnée (FCD). Nous réduisons nos coûts d'API de 70% et nous devenons nous-mêmes un fournisseur d'API pour les autres."
+
+### Un point à ajouter sur le coût des API dans votre business plan :
+
+Prévoyez environ **15% à 20% de votre budget R&D** la première année pour les coûts d'API. C'est le prix de la "crédibilité" de votre algorithme auprès du Cerema.
+
+tu es une **"Solution Chirurgicale"**.
+
+### : "L'Intensité bat la Fréquence" (L'argument CO2)
+
+C'est la réponse la plus scientifique.
+
+- **La réponse :** "C'est vrai, il y a moins de bouchons sur autoroute qu'en ville. Mais l'impact énergétique d'un bouchon sur autoroute est **100 fois pire**."
+
+WAVE BRAKER
+
+### La rentabilité sur les "Jours Noirs"
+
+Vinci et les Assureurs font leurs marges (ou leurs pertes) sur des moments clés.
+
+- **La réponse :** "Un réseau autoroutier est dimensionné pour les pics (vacances, ponts, matin/soir). C'est durant ces 10% du temps que se jouent 80% des risques d'accidents et des pertes de temps."
+- **L'explication :** Sur un trajet de plus de 300km, gagner 20 minutes n'est pas "accessoire", c'est la différence entre un client satisfait et un client qui ne prendra plus l'autoroute (et prendra le train).
+- **Conclusion :** *"Notre scalabilité vient du fait qu'on cible les moments critiques où la valeur ajoutée est maximale (les grands départs)."*
+
+Que fait l'appli à 3h du matin quand l'autoroute est déserte ? Elle sert encore !
+
+- **La réponse :** "Même sans bouchon, notre app décarbone."
+- **L'explication :** Quand le trafic est fluide, l'algorithme passe en mode **"Green Cruising"**. Il ne calcule plus la vitesse pour éviter le bouchon, mais la vitesse optimale pour le moteur et l'aérodynamisme (ex: conseiller 110 km/h au lieu de 130 km/h pour gagner 20% de carburant, ou anticiper une montée).
+- **Conclusion :** *"S'il y a du monde, on optimise le flux. S'il n'y a personne, on optimise la consommation individuelle."*
+
+---
+
+## 1. Le Pitch : Qu'est-ce que WaveBreaker ?
+
+*"Bonjour à tous. Le problème qu'on résout est invisible mais coûteux : les **bouchons fantômes**."*
+
+> Le constat : Sur autoroute, 30% des bouchons ne sont pas dus à un accident ou des travaux, mais à l'effet "accordéon". Un conducteur freine trop fort, celui derrière freine plus fort, et 2 km derrière, tout le monde est à l'arrêt. C'est un désastre écologique et économique.
+> 
+> 
+> **La solution : WaveBreaker.** WaveBreaker n'est pas un GPS. C'est un **régulateur de trafic collaboratif**. C'est une intelligence artificielle qui se superpose à votre navigation habituelle (Waze, Maps) via une application légère en "overlay".
+> 
+> **Comment ça marche ?** Connectée en réseau, l'IA calcule en temps réel la vitesse optimale pour **tout le flux**de véhicules, pas juste pour un seul. Elle dit à l'utilisateur : *"Roulez à 110 km/h maintenant pour ne pas être à l'arrêt dans 10 minutes"*.
+> 
+> **La valeur ajoutée :** C'est le "Pacemaker" de l'autoroute. En lissant la vitesse de quelques milliers de voitures, nous empêchons la formation du bouchon.
+> 
+> - Pour la planète : Moins de freinages/redémarrages = **15% de CO2**.
+> - Pour l'assureur : Moins de chocs arrière = **Moins de sinistres**.
+> - Pour Vinci : Un trafic fluide = **Des clients satisfaits**.
+
+---
+
+## 2. Notre Master Plan (Go-to-Market Strategy)
+
+*"Nous savons que pour réguler le trafic, il faut du volume. Voici notre stratégie en 2 temps pour passer de la preuve de concept au standard industriel."*
+
+### 📅 Phase 1 : L'Infiltration (0 - 18 mois)
+
+**Objectif :** Prouver l'efficacité de l'algorithme et constituer notre propre base de données (Data).
+
+- **Le Produit :** L'App WaveBreaker en B2C. Elle fonctionne en **surcouche (overlay)**. L'utilisateur garde son Waze, mais active WaveBreaker pour gagner des points (Gamification) et économiser du carburant.
+- **La Tech :** Hybride. Nous utilisons les données API (TomTom/Here) pour démarrer, et nous affinons avec les données de nos premiers utilisateurs.
+- **Les Revenus (Comment on survit) :**
+    1. **POCs Assureurs :** Nous vendons des projets pilotes (ex: 30k€) à des assureurs (AXA, Allianz) pour qu'ils testent la réduction de risque sur leurs flottes de jeunes conducteurs.
+    2. **Subventions GreenTech :** Bourse French Tech, ADEME, Plan France 2030 (axe décarbonation des transports).
+    3. **Partenariats Flottes Pro :** Tests payants avec des transporteurs logistiques (camions) pour réduire leur conso carburant.
+
+### 🚀 Phase 2 : L'Industrialisation (18 mois +)
+
+**Objectif :** Scalabilité massive et rentabilité.
+
+- **Le Pivot Stratégique :** Nous transformons notre technologie en **Licence B2B**.
+- **Le Partenariat Clé :** Nous signons avec Vinci Autoroutes (ou Sanef) pour intégrer l'algorithme WaveBreaker directement dans leur application **Ulys** (5 millions d'utilisateurs).
+- **Les Revenus :**
+    1. **Licence SaaS :** Vinci paie un abonnement annuel pour utiliser notre moteur de régulation.
+    2. **Monétisation Data :** Nous vendons aux assureurs des scores de risque ultra-précis basés sur des millions de trajets (Pay-How-You-Drive).
+
+---
+
+## 3. La Vision "Exit" (Scénarios de sortie)
+
+*"Où serons-nous dans 5 ans ?"*
+
+Nous avons construit ce business model pour être flexible face au marché :
+
+- **Scénario A (L'Indépendance) :** Nous devenons le leader européen de la régulation logicielle. Nous équipons Vinci en France, mais aussi les autoroutes en Espagne et en Italie. Nous restons une entreprise SaaS rentable.
+- **Scénario B (Le Rachat) :** Notre technologie devient tellement critique pour la gestion du réseau que Vinci (ou un constructeur comme Renault/Google) nous rachète pour sécuriser l'avantage concurrentiel.
+
+---
+
+### 💡 Pourquoi nous faire confiance (Conclusion pour le Jury)
+
+> *"WaveBreaker transforme une faiblesse humaine (l'irrégularité de conduite) en une force collective. Nous ne demandons pas de construire de nouvelles routes. Nous ne demandons pas de changer de voiture. Nous demandons juste d'installer une intelligence logicielle qui synchronise les conducteurs.
+> 
+> 
+> C'est la solution la plus rapide et la moins chère pour décarboner l'autoroute dès aujourd'hui."*
+> 
+
+Est-ce que cette structure te donne confiance pour le pitch ? Ça fait très "pro".
+
+---
+
+![Capture d’écran 2026-01-31 à 08.23.24.png](attachment:5f16ea16-2332-4d6c-a465-368353486f12:Capture_decran_2026-01-31_a_08.23.24.png)
+
+![Capture d’écran 2026-01-31 à 08.23.39.png](attachment:4ece49b8-eb1b-4af3-a2a2-e5c0d4c2e708:Capture_decran_2026-01-31_a_08.23.39.png)
+
+Le Problème du passager Plandestin : resoudre le probleme c’est l’incitation.
+
+---
+
+### 1. Le Besoin Fondamental : Ça sert à qui ? Ça sert à quoi ?
+
+Pour capter l'attention immédiatement, il faut définir les bénéficiaires et l'impact réel.
+
+### **Ça sert à qui ? (Les Bénéficiaires)**
+
+WaveBreaker sert un écosystème de **quatre acteurs** dont les intérêts sont alignés :
+
+1. **L'Automobiliste (L'utilisateur final) :** Familles en vacances, pros de la route. Il veut arriver en sécurité, sans stress et consommer moins.
+2. **L'Exploitant Autoroutier (Le Client B2B - ex: Vinci, Sanef) :** Il cherche à maximiser le débit de son "tuyau" (l'autoroute) et la satisfaction client lors des grands départs.
+3. **L'Assureur :** Il cherche à réduire la fréquence des sinistres matériels (chocs arrière en bout de bouchon).
+4. **La Collectivité (L'État/L'Environnement) :** Elle cherche des solutions immédiates pour décarboner les transports sans construire de nouvelles voies.
+
+### **Ça sert à quoi ? (La Proposition de Valeur)**
+
+WaveBreaker est un **"Pacemaker" (stimulateur cardiaque) pour l'autoroute**.
+
+- **Fonction principale :** Synchroniser les véhicules pour empêcher la formation mathématique du bouchon fantôme.
+- **Résultat concret :** Transformer un flux "Stop-and-Go" (très polluant et dangereux) en un flux laminaire (fluide et économe).
+- **L'impact :** Moins de stress, moins de CO2, moins d'accidents.
+
+---
+
+### 2. La "Défense" : Réponses aux Critiques (Q&A)
+
+C'est ici que vous gagnez la crédibilité du jury ou des investisseurs. Il ne faut pas nier les objections, mais les utiliser pour renforcer l'argumentaire.
+
+### **Critique 1 : "Oui mais, il y a très peu d'embouteillages sur l'autoroute comparé à la ville."**
+
+> Réponse : L'Intensité bat la Fréquence.
+> 
+
+"C'est vrai en fréquence, mais faux en impact.
+
+- **L'argument Énergétique :** Un bouchon à haute vitesse qui se transforme en arrêt complet consomme une énergie cinétique colossale. Redémarrer une tonne d'acier de 0 à 130 km/h coûte infiniment plus cher en CO2 et en carburant que de rouler au pas en ville.
+- **L'argument des 'Jours Noirs' :** Un réseau autoroutier est comme un réseau électrique : il est dimensionné pour les pics. C'est durant les 10% du temps (vacances, ponts) que se jouent 80% des risques d'accidents mortels et des pertes économiques. C'est là que notre valeur est maximale."
+
+### **Critique 2 : "Jamais personne ne va télécharger votre appli. On a déjà Waze, Maps, Coyote..."**
+
+> Réponse : La Stratégie du 'Cheval de Troie' (Overlay & Intégration).
+> 
+
+"Nous sommes lucides : personne ne veut d'un énième GPS. C'est pourquoi :
+
+1. **Nous ne remplaçons pas Waze :** WaveBreaker est un 'overlay' (une surcouche). L'utilisateur garde son Waze pour la navigation, et WaveBreaker tourne en fond pour donner juste la consigne de vitesse optimale.
+2. **L'acquisition par la Gamification (B2C) :** Au début, nous attirons les utilisateurs avec une promesse d'économie de carburant et des récompenses (modèle 'Drive-to-Earn').
+3. **L'intégration finale (B2B2C) :** Notre but ultime n'est pas que l'appli soit téléchargée, mais que son *algorithme* soit intégré directement dans les applications que les gens ont déjà, comme **Ulys de Vinci (5 millions d'utilisateurs)**. Le téléchargement direct n'est que notre phase de preuve (Phase 1)."
+
+### **Critique 3 : "Modèle économique pas clair/pas viable. Qui va payer ? Est-ce réaliste ?"**
+
+> Réponse : Ceux qui perdent de l'argent quand ça bloque sont ceux qui paient.
+> 
+
+"L'utilisateur final (le conducteur) ne paie pas, c'est lui le produit (ou plutôt, c'est sa donnée). Le modèle est B2B :
+
+- **Les Assureurs (Phase 1) :** Ils paient pour la 'Data de risque'. Un freinage d'urgence sur autoroute est un précurseur d'accident. Nous leur vendons cette visibilité et la prévention associée.
+- **Les Concessionnaires (Phase 2 - Le vrai Business) :** Vinci Autoroutes vend du 'temps de trajet garanti'. Un bouchon monstre dégrade leur service. Ils paieront une licence technologique pour fluidifier leur réseau sans avoir à construire une 4ème voie (qui coûterait des milliards). C'est du **SaaS d'infrastructure**."
+
+### **Critique 4 : "On ne règle pas le problème des gens qui roulent trop vite, et le problème de carbonisation reste le même."**
+
+> Réponse : La fluidité est la clé de la décarbonation immédiate.
+> 
+
+"Il ne faut pas confondre vitesse et pollution. Ce qui tue le bilan carbone, c'est la variation (le freinage et la relance).
+
+- **Physique du CO2 :** Une voiture qui roule à vitesse stabilisée (même à 110km/h) émet beaucoup moins qu'une voiture qui fait 130 -> 0 -> 130 km/h. En lissant le trafic, on réduit la consommation de 15% à 20% mécaniquement.
+- **Green Cruising (Hors bouchons) :** Quand l'autoroute est vide, notre algorithme ne s'arrête pas. Il conseille la vitesse optimale pour le moteur et l'aérodynamisme (ex: 110 km/h au lieu de 130 km/h). Nous ne sommes pas la police, nous sommes un coach d'efficience."
+
+![image.png](attachment:4df94712-5741-4ac6-b573-ae598eaa055b:image.png)
+
+**1. Le Bilan Carbone d'un "Jour Noir" à Beaune**
+En évitant l'arrêt total (0 km/h) et en lissant le flux sur les 10 km du nœud de Beaune pour les 103 000 véhicules :
+• **Économie de carburant :** Passer d'une conduite "Stop-and-Go" (consommation ~15L/100km) à une conduite régulée à 80-90 km/h (~8L/100km) permet d'économiser environ **0,7 Litre par véhicule** sur la zone critique.
+• **Total Journée :** **72 000 Litres d'essence/diesel économisés** en une seule journée de chassé-croisé.
+• **Impact CO2 :** Cela représente **187 tonnes de $CO_2$ économisées en 24h** sur un seul point du réseau.
+    ◦ *Image pour le jury :* C'est l'équivalent de la capture annuelle de $CO_2$ par une forêt de **9 000 arbres**, réalisée en une seule journée.
+
+**2. L'alternative à la "Bétonisation" (Stratégie anti-One More Lane)**
+L'argument "One More Lane" (le syndrome de San Francisco ou l'Induit de Trafic) explique qu'élargir une autoroute ne règle jamais le bouchon, cela ne fait qu'attirer plus de voitures.
+• **Le concept de "Voie Virtuelle" :**
+    ◦ Le Cerema indique qu'un bouchon réduit la capacité réelle d'une voie (on tombe de 2300 à ~1200 v/h/voie à cause des arrêts).
+    ◦ En maintenant le flux à 2300 v/h grâce à tes 5% de régulateurs, tu "offres" au concessionnaire l'équivalent d'**une voie supplémentaire invisible**.
+• **Économie de Chantier :** * Ajouter une 4ème voie sur 10 km coûte environ **70 millions d'euros** (terrassement, bitume, ponts à élargir).
+    ◦ **Bétonisation évitée :** Tu économises l'imperméabilisation de **35 000 $m^2$ de sols** (soit 5 terrains de football).
+    ◦ **Empreinte de construction :** La construction d'une voie neuve émet environ 1000 tonnes de $CO_2$ par km. En évitant l'élargissement, ton app évite l'émission de **9 000 tonnes de $CO_2$ de chantier** (matériaux, transport, engins).
+
+replacing 5% of the vehicle fleet with properly-designed AVs has the same impact on emissions reduction as replacing roughly 75% of vehicles with electric vehicles Stern and al. 2018
+
+---
+
+### 1. L'Automobiliste (Utilisateur B2C)
+
+*Il ne paie pas, c'est lui qui crée la valeur par son usage.*
+
+- **Ce qu'on lui vend :** **Rien.**
+- **Ce qu'il gagne (Incentives) :**
+    - **Pouvoir d'achat immédiat :** Économie de carburant (Green Cruising hors embouteillage) ET Points cadeaux (Café, Télépéage).
+    - **Assurance moins chère :** Grâce à notre score de conduite , il débloque des réductions sur sa prime d'assurance.
+    - **Confort :** Moins de stress, arrivée à l'heure, sécurité pour sa famille.
+
+### 2. Les Assureurs & Flottes Privées (aire d’autoroute facultatif et portentiel)(Clients B2B - Phase 1)
+
+*Ce sont nos premiers payeurs pour réduire leurs coûts.* *(Cibles : AXA, Allianz, mais aussi Amazon, DHL, transporteurs logistiques)*
+
+- **Ce qu'on leur vend :**
+    - **Aux Assureurs :** La "Data de Risque" qualifiée. Nous identifions les profils prudents (pour les fidéliser) et les comportements à risque (prévention).
+    - **Aux Flottes Pro (Logistique) :** Un **Dashboard de gestion** et le **Label "WaveBreaker Certified"**. Ce label certifie que leur flotte roule de manière écologique et sécurisée (Argument RSE fort pour leurs appels d'offres).
+- **Ce qu'ils gagnent :**
+    - **Rentabilité :** Moins d'accidents (baisse des sinistres) et moins de consommation de carburant (poste de dépense #1 des camions).
+    - **Image :** Un positionnement "Green & Tech".
+
+### 3. L'Exploitant Autoroutier (Client Industriel - Phase 2)
+
+*Le client final à très haute valeur (Vinci, Sanef, APRR).*
+
+- **Ce qu'on lui vend :**
+    - **Licence SaaS / API :** L'intégration de notre algorithme directement dans leur infrastructure et leur app (Ulys). C'est un abonnement annuel ou un "Fee" au kilomètre régulé.
+- **Ce qu'il gagne :**
+    - **Optimisation du CAPEX :** Augmenter le débit de l'autoroute (+15% de véhicules/heure) sans construire de nouvelles voies (qui coûtent des milliards).
+    - **Satisfaction Client :** Un client qui ne bouchonne pas est un client qui revient.
+    - Gain RSE, contrats fin en 2032, 2034, 2036. -50% de CO2 d’ici 2030, usagers = ils doivent faire reduire de 20%, et en 2023 ya +3% . (source : rapport de perf extra financiere de Vinci 2024)
+
+### 4. L'État & La Planète (Le Sponsor)
+
+*Ils financent l'amorçage via des aides.*
+
+- **Ce qu'on lui vend :**
+    - **Éligibilité aux Subventions :** Nous ne "vendons" pas, mais nous captons des bourses (France 2030, GreenTech) car nous sommes une solution d'intérêt général.
+- **Ce qu'il gagne :**
+    - **Décarbonation Rapide :** Réduction immédiate des émissions de CO2 sans travaux publics.
+    - **Sécurité Routière :** Baisse de la mortalité sur les routes.
+
+---
+
+Est-ce que ça marche vraiment ? L'étude de référence de l'Université de l'Illinois (Stern et al.) a prouvé qu'un seul véhicule autonome régulant 20 voitures permettait de réduire la consommation de **42%** lors des phases d'accordéon. Nous, on reste prudents : on promet **15%** d'économie sur l'ensemble du trajet. Et même 15%, à l'échelle d'une autoroute, c'est colossal.
+
+---
+
+PITCH du SAMEDI : 
+
+**[0:00-0:45] L'Accroche : Le Problème Invisible** Bonjour à tous. Vous connaissez tous cette situation : vous êtes sur l’autoroute à 130 km/h, et soudain, tout le monde pile. Vous êtes à l’arrêt. Et quand ça repart… il n’y a rien. Pas d’accident, pas de travaux. C’est le **bouchon fantôme**. Ce phénomène représente **30% des congestions**. C’est un désastre écologique et économique causé par l'effet "accordéon" : un freinage trop fort, une réaction en chaîne, et 2km derrière, l'arrêt complet.
+
+**[0:45-1:30]**  La réponse, c’est **WaveBreaker**. Ce n’est pas un GPS. C’est un **régulateur de trafic collaboratif**. Une IA en "overlay" (surcouche) qui synchronise les véhicules. Elle dit au conducteur : *"Roulez à 110 maintenant pour ne pas être à l'arrêt dans 10 minutes."*
+
+ Est-ce que ça marche vraiment ? Nous ne nous basons pas sur des suppositions, mais sur l'étude de référence de **l'Université de l'Illinois (Stern et al.)**. Elle prouve mathématiquement qu'il suffit de **5% de véhicules connectés** pour stabiliser le flux de tout le monde. Dans leurs tests, cela réduit la consommation de carburant de **42%** en phase de congestion. Nous, par rigueur industrielle, nous nous engageons sur une économie moyenne de **15%** sur un trajet complet. 
+
+Mais comment convaincre le conducteur de ralentir ? C’est là que réside notre résilience B2C. Nous ne misons pas seulement sur l'écologie, mais sur l'intérêt direct de l'utilisateur. Respecter la vitesse optimale rapporte des points qui se convertissent en **cafés ou en menu repas offerts sur l'aire d'autoroute** (via nos partenaires comme Areas) ou en **réductions immédiates au péage**.
+
+**Et c'est économiquement viable de faire ça !!** Pourquoi ? Parce que le coût d'un café offert est dérisoire comparé aux millions d'euros que Vinci et les Assureurs perdent chaque année à cause de l'inefficience du réseau. Nous redistribuons une fraction de ces économies géantes pour acheter le bon comportement du conducteur.
+
+Techniquement, pour démarrer sans utilisateurs (T0), nous utilisons une stratégie **Hybride**. En Phase 1, nous achetons la donnée via les **API Google et TomTom** pour l’algorythme. En Phase 2, nos utilisateurs deviennent nos capteurs (FCD - Floating Car Data), ce qui nous permet de réduire nos coûts d'API de 70% et de devenir souverains sur la donnée.
+
+**[2:15-3:15] Le Business Model, le marché (Qui paie ?)** Notre modèle est vertueux car il aligne les intérêts de 4 acteurs :
+
+1. **L'Automobiliste :** Il ne paie rien. Il gagne du pouvoir d'achat (café, péage, carburant) + assurance
+2. **L'Assureur (Phase 1) :** Il paie pour la "Data de Risque". Moins de freinages brusques = moins de sinistres matériels.
+    
+    On parle d’assureurs mais pleins d’atures acteurs pourront etre interessés, entreprises à grande flotte automobile qui veulent labelliser leurs conducteurs, aires d’autoroutes et sponsor.
+    
+3. **Vinci Autoroutes (Phase 2) :** C'est notre client final. Ils ont un objectif RSE de -50% de CO2 d'ici 2030, mais leurs émissions ont augmenté de 3% en 2023. WaveBreaker est la seule solution logicielle court/moyen terme pour fluidifier le débit de l'autoroute sans construire de nouvelles voies. Ils paieront une licence SaaS d'infrastructure. Des resultats sur court terme pour la reduction CO2 du fait d’un logiciel softwere, c’est l’un de nos avantages competitif.
+4. **L'État :** Il soutient l'amorçage via France 2030 car nous décarbonons massivement sans travaux publics. ce seront les premiers cashflow, de quoi financer la communication et le marketing pour faire arriver les premiers clients.
+
+CONCLUSION : WaveBreaker transforme une faiblesse humaine — l'irrégularité — en une force collective. Nous ne demandons pas de construire de nouvelles routes. Nous installons l'intelligence logicielle qui permet de rentabiliser et décarboner l'infrastructure existante dès aujourd'hui.
+
+**Nos objectifs concrets pour le reste du hackathon sont clairs :** Nous allons finaliser l'interface de notre prototype mobile pour vous montrer l'expérience utilisateur. Mais surtout, nous allons vous livrer une **simulation Python comparative** : d'un côté une autoroute saturée classique, de l'autre, la même route régulée par seulement 5% d'utilisateurs WaveBreaker. Ce moteur algorithmique, que nous peaufinons en ce moment même, prouvera par A + B que notre solution est prête à passer de la théorie à la route.
