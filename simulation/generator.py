@@ -3,7 +3,6 @@ WAVEBREAKER GENERATOR V13 (STRESS FACTOR EDITION)
 -------------------------------------------------
 - Déclenchement : T >= 1200s au Km 30.
 - Durée du crash : 400s.
-- Stress Factor : x1,3 maintenu sur Chaos après l'impact.
 """
 
 import random
